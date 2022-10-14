@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Zadanie 3 HTML</title>
+</head>
+
+<body>
+    <h2>Podaj swoje dane: </h2>
+        <br>
+        <form action="https://formspree.io/f/myyvpodz" method="POST">
+
+            <label for="name">Imię i nazwisko: </label><br><br>
+            <input name="name" id="name" required placeholder="Podaj imię i nazwisko">&nbsp;&nbsp;*<br><br><br>
+
+            <label for="email">Email: </label><br><br>
+            <input type="email" name="email" id="email" required placeholder="Podaj email">&nbsp;&nbsp;*<br><br><br>
+
+            <label for="telefon">Telefon: </label><br><br>
+            <input type="tel" name="telefon" id="telefon" required placeholder="Podaj numer telefonu">&nbsp;&nbsp;*<br><br><br>
+
+            <label for="message">Wiadomość: </label><br><br>
+            <textarea maxlength="1000" name="message" id="message"
+                placeholder="Tutaj wpisz swoją wiadomość"></textarea><br><br><br>
+
+            <input type="submit" id="submit" value="Wyślij">
+
+            <h4>* Pole wymagane</h4><br>
+        </form>
+</body>
+
+</html>
